@@ -1,6 +1,6 @@
 <template>
     <form class="auth-form" @submit.prevent="submit">
-        <h2>Login</h2>
+        <h2 class="form-title">Login</h2>
 
         <div class="form-group">
             <label for="email">Email:</label>
@@ -66,9 +66,15 @@
         background-color: #007bff;
         color: #fff;
         cursor: pointer;
+        margin-inline: auto;
+
     }
 
     .submit-btn:hover {
         background-color: #0056b3;
+    }
+    .form-title{
+        display: block;
+        text-align: center;
     }
 </style>

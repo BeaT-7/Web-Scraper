@@ -38,6 +38,8 @@
         color: #fff;
         cursor: pointer;
         width: 50%;
+        display: block;
+        margin-inline: auto;
     }
 
     .toggle-btn:hover {
